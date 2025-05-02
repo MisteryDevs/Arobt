@@ -8,9 +8,9 @@ class Config(object):
   
     ANILIST_SECRET = getenv("ANILIST_SECRET", "NeCEq9A1hVnjsjZlTZyNvqK11krQ4HtSliaM7rTN")
   
-    API_ID = getenv("API_ID", None)
+    API_ID = getenv("API_ID","14050586")
    
-    API_HASH = getenv("API_HASH",None)
+    API_HASH = getenv("API_HASH","42a60d9c657b106370c79bb0a8ac560c")
    
     TOKEN = getenv("TOKEN", None)
   
@@ -22,17 +22,17 @@ class Config(object):
    
     START_IMG = getenv("START_IMG", "https://graph.org/file/eaa3a2602e43844a488a5.jpg")
 
-    JOIN_LOGGER = getenv("JOIN_LOGGER", "-1002046320443`)
+    JOIN_LOGGER = getenv("JOIN_LOGGER", "-1001992970818")
    
-    EVENT_LOGS = getenv("EVENT_LOGS",  "-1002046320443")
+    EVENT_LOGS = getenv("EVENT_LOGS",  "-1001992970818")
   
-    ERROR_LOGS = getenv("ERROR_LOGS", "-1002046320443")
+    ERROR_LOGS = getenv("ERROR_LOGS", "-1001992970818")
 
     MONGO_DB_URI= getenv("MONGO_DB_URI", None)
    
-    LOG_CHANNEL = getenv("LOG_CHANNEL", "-1002046320443")
+    LOG_CHANNEL = getenv("LOG_CHANNEL", "-1001992970818")
    
-    BOT_USERNAME = getenv("BOT_USERNAME" , "AlisaMusicRobot")
+    BOT_USERNAME = getenv("BOT_USERNAME" , "Ur_Music_Robot")
    
     DATABASE_URL = getenv("DATABASE_URL", None)
 
@@ -42,7 +42,7 @@ class Config(object):
 
     SPAMWATCH_API = getenv("SPAMWATCH_API", "3624487efd8e4ca9c949f1ab99654ad1e4de854f41a14afd00f3ca82d808dc8c")
     
-    SPAMWATCH_SUPPORT_CHAT = getenv("SPAMWATCH_SUPPORT_CHAT", "h_cc_help")
+    SPAMWATCH_SUPPORT_CHAT = getenv("SPAMWATCH_SUPPORT_CHAT", "ur_support07")
     
     WALL_API = getenv("WALL_API", "2455acab48f3a935a8e703e54e26d121")
     
