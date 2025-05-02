@@ -14,7 +14,7 @@ class Config(object):
    
     TOKEN = getenv("TOKEN", None)
   
-    OWNER_ID = getenv("OWNER_ID", "7685111725") 
+    OWNER_ID = getenv("OWNER_ID", "5738579437") 
 
     OWNER_USERNAME = ("OWNER_USERNAME", "Rishu1286")
     
